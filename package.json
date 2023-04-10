@@ -1,15 +1,26 @@
 {
-  "name": "nodejs-docker-app",
+  "name": "the-docker-and-ci-environment-by-copying",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-connor/The-Docker-and-CI-environment-by-copying.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-connor/The-Docker-and-CI-environment-by-copying/issues"
+  },
+  "homepage": "https://github.com/dev-connor/The-Docker-and-CI-environment-by-copying#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.22",
+    "redis": "^3.0.2"
   }
 }
