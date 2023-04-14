@@ -16,7 +16,7 @@ client.set("number", 0)
 
 app.get("/", (req, res) => {
   client.get("number", (err, number) => {
-    res.status(200).send("숫자가 1씩 올라갑니다. 숫자: ", +number)
+    res.send("숫자가 1씩 올라갑니다. 숫자: " + number)
     client.set("number", parseInt(number) + 1)
   })
 })
