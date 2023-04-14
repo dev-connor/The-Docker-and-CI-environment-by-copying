@@ -20,7 +20,7 @@
   "homepage": "https://github.com/dev-connor/The-Docker-and-CI-environment-by-copying#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.22",
+    "nodemon": "*",
     "redis": "^3.0.2"
   },
   "devDependencies": {
